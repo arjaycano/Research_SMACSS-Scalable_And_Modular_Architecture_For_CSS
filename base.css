@@ -1,0 +1,27 @@
+/* base.css */
+body {
+    margin: 0;
+    background-image: url(bg.jpg);
+    background-attachment: fixed;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+section hr{
+    border: none;
+    border-top: 2px solid black;
+}
+section h3{
+    text-align: center;
+}
+section h4{
+    text-align: center;
+}
+section h5{
+    text-align: center;
+}

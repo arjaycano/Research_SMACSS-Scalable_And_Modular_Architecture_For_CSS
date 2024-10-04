@@ -1,0 +1,16 @@
+/* theme.css */
+section p span{
+    color:rgb(205, 205, 205);
+}
+.mode{
+    margin-left: 400px;
+}
+.mode i{
+    color: whitesmoke;
+}
+.mode i:hover{
+    color:rgb(175, 133, 36);
+}
+a:hover {
+    color:rgb(175, 133, 36);
+}

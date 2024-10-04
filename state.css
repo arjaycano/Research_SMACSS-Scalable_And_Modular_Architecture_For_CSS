@@ -1,0 +1,10 @@
+/* state.css */
+form input[type="submit"]:hover {
+    background-color: rgb(175, 133, 36);
+}
+form input[type="submit"] {
+    background-color: #c8ab1d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

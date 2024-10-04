@@ -1,0 +1,81 @@
+/* module.css */
+.brand{
+    display: inline-block;
+}
+.title{
+    display: inline-block;
+    margin: 0;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    position: relative;
+    top: -15px;
+    left: 15px;
+}
+.links{
+    float: right;
+    position: relative;
+    top: 15px;
+}
+.link{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 15px;
+    transition: 0.2s;
+}
+section {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 10px;
+}
+section img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+section table {
+    margin: 20px auto;
+    width: 100%; 
+    border-collapse: collapse;
+    border: 2px solid rgba(255, 255, 255, 0.2); 
+}
+section td, section th {
+    text-align: center;
+    padding: 10px;
+}
+section video{
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1000px; /* You can change this to fit your desired size */
+    height: auto;
+}
+/* Forms Styling */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

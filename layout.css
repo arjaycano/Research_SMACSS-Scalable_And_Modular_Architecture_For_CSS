@@ -1,0 +1,25 @@
+/* layout.css */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+header nav{
+    background-color: rgb(42, 37, 37);
+    padding: 15px 25px;
+    box-shadow: 0 0 5px 3px rgba( 0, 0, 0, 0.5);
+}
+header nav img{
+    width: 50px;
+    border-radius: 25%;
+}
+footer{
+    background-color: rgb(42, 37, 37);
+    padding: 15px 25px;
+    text-align: center;
+}
+footer p{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
